@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+.passwordgenerator {
+  /* height: 20rem; */
+  width: 25rem;
+  background-color: aqua;
+  border-radius: 6px;
+}
+#password {
+  background-color: white;
+  height: 50px;
+  width: 97%;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 7px;
+  font-size: 30px;
+}
+.passwordgenerator p {
+  display: inline;
+  font-size: 25px;
+}
+.length {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+  /* color: antiquewhite; */
+}
+.length input {
+  width: 16%;
+  height: 25px;
+}
+
+.Uppercase {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+  align-items: center;
+}
+.Uppercase input {
+  height: 17px;
+  width: 17px;
+}
+.lowercase input {
+  height: 17px;
+  width: 17px;
+}
+.lowercase {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+  align-items: center;
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+  align-items: center;
+}
+.numbers input {
+  height: 17px;
+  width: 17px;
+}
+.symbols {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+  align-items: center;
+}
+.symbols input {
+  height: 17px;
+  width: 17px;
+}
+button {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  font-size: 20px;
+  border: none;
+  background-color: #2a2828;
+  color: rgb(233, 227, 218);
+  border-radius: 4px;
+  margin: 6px;
+  margin-top: 7px;
+  cursor: pointer;
+}
